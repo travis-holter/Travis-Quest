@@ -545,7 +545,7 @@ def library_room():
 	print "1. Read the first book off the shelf"
 	if gift == "Calculator":
 		print "\033[0;36m100% chance of success\033[0m"
-	print "2. Say \"Reading if for losers!\""
+	print "2. Say \"Reading is for losers!\""
 	if gift == "Calculator":
 		print "\033[0;36m0% chance of success\033[0m"
 	if gift == "History Book":
@@ -770,7 +770,7 @@ def travis_room():
 	if int > 0:
 		print "\033[0;36mi. Use intellegence to fight him in a battle of wits!\033[0m"
 	if cha > 0:
-		print "\033[0;36mch. Charm him be being a charismatic motherfucker!\033[0m"
+		print "\033[0;36mch. Charm him by being a charismatic motherfucker!\033[0m"
 	print "f. follow your heart"
 	choice = raw_input("> ")
 	if choice == "b" and gift == "Big Sword":
@@ -857,6 +857,13 @@ def travis_room():
 		blood. 
 		"""
 		death("drunk like a soda pop")
+	if choice == "ch" and cha>0:
+		print"""
+		You open a can of charismatic whoop ass and lay it on thick. Travis isn\'t
+		impressed. Like, at all. You get the feeling he put in charismatic and sexy
+		roleplay options for the lols, but he would rather crush your bones. So, he does.
+		"""
+		death("crushed bones")
 	if choice == "f":
 		print"""
 		You search your feelings and know your choice. Your heart sings a song of
