@@ -345,7 +345,7 @@ def medusa_room():
 	elif gift == "Sexy Wig":
 		print ("\033[0;36m3. Cover your eyes with the Sexy Wig\033[0m")
 	elif dex > 0:
-		print ("\033[0;36m3. Backflip over everything!\033[0m")
+		print ("\033[0;36m3. (Good Dexterity) Backflip over everything!\033[0m")
 	choice = input("> ")
 	fate = random.randint(1,2)
 	if choice == "1":
