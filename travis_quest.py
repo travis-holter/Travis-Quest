@@ -134,6 +134,7 @@ def math_test_room():
 	""")
 	if gift == "History Book":
 		print("""
+		You open your history book:
 		\033[0;36mYou find a biography page for the Orcish math teacher. His is named
 		\'Grumsh the cheater-hater\', and he is known for ripping the spines from
 		students that are caught cheating.\033[0m
@@ -171,7 +172,7 @@ def math_test_room():
 	elif choice == "3" and gift == "Calculator":
 		int += 1
 		print("""
-		You combine hard work and the right tools nd ace the test! Nice job, you feel
+		You combine hard work and the right tools and ace the test! Nice job, you feel
 		proud and smarter.
 		""")
 		print ("\033[0;32mYour intelligence increased!\033[0m")
