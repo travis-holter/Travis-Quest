@@ -232,7 +232,7 @@ def yoga_room():
 		print ("\033[0;36m100% chance of success AND increase your Wisdom!\033[0m")
 	print ("2. Punch him in the face and run away.")
 	if gift == "Calculator":
-		print ("\033[0;36,100% chance of success")
+		print ("\033[0;36m100% chance of success")
 	choice = input("> ")
 	if choice == "1":
 		print("""
@@ -744,7 +744,7 @@ def travis_room():
 	if gift == "Calculator":
 		print ("""
 		You take out your trusty calculator to figure the chances of success for your
-		options, but something trange happens. Travis blesses it with artificial
+		options, but something strange happens. Travis blesses it with artificial
 		intelligence! Then he gives it a logical paradox and it self-destructs! You are 
 		now left with only a pile of broken circuits and your wits.
 		""")
