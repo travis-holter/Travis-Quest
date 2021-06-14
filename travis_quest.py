@@ -299,7 +299,7 @@ def weight_room():
 		drinking protein shakes. You feel bigger but you are too sore to move. Nice
 		lift, bro!
 		""")
-		print ("\033[0;32mYour Strenght got good!\033[0m")
+		print ("\033[0;32mYour Strength got good!\033[0m")
 		str += 1
 	elif choice == "3" and gift == "Steroids":
 		print("""
